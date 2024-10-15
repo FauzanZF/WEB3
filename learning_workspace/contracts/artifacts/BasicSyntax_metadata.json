@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AA_SyntaxDasarSolidity.sol": "BasicSyntax"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AA_SyntaxDasarSolidity.sol": {
+			"keccak256": "0x631059ed7c4d8f98e362dd9132090baae998cc61266cb841944b9e209a36b012",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dddcc1530d11cdc2323c7202a38286b5988be29b61ccf366bf036925bf943aca",
+				"dweb:/ipfs/QmdD2uWpqf45rU2FBUtLh8F3HTpGMkkHVKV3yo59iWTD7w"
+			]
+		}
+	},
+	"version": 1
+}

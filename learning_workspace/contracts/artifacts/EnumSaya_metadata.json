@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getEnum",
+				"outputs": [
+					{
+						"internalType": "enum EnumSaya.jobs",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AB_VariableTypes.sol": "EnumSaya"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AB_VariableTypes.sol": {
+			"keccak256": "0x26edcf3e483f5d13721344a1f6767cbb7af0d599bb3e316c34eb77e4318dc88d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd63c4dfc774258d7036ede406faffac2fd0bd715d6c572bae45dbd47e29d376",
+				"dweb:/ipfs/QmdCfBxQCibr9ZeXZhUcmcpm4Cnoz8fpYsRd1amMvkjvQF"
+			]
+		}
+	},
+	"version": 1
+}
