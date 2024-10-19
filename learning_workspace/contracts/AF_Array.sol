@@ -62,7 +62,7 @@ contract ArrayLength{
         return data;
     }
 
-    function array_length() public returns(uint){
+    function array_length() public view returns(uint){
         uint x = data.length;
         return x;
     }

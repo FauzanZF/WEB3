@@ -26,13 +26,20 @@ contract Location {
     //storage
     bool isReady;
 
-    function iniFungsi() public {
+    function iniFungsi() public view  {
         //values akan disimpan di memory karena di lokal variable
-        bool isOke;
+        bool isOke = true;
      // bool memory isOke; akan error
-        uint number;
-        address akun;
+        uint number = 123 ;
+        address akun = address(0);
+
+         // hiraukan kode dibawah ini, karena dibuat agar tidak ada peringatan error karena local var tidak digunakan
+        if (isOke) {
+            number = 456;
+            akun = msg.sender;
+        }
     }
+    
 }
 
 contract Local {
